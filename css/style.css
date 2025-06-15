@@ -171,6 +171,10 @@ blockquote {
     -moz-transition: 0.5s ease all;
     -ms-transition: 0.5s ease all;
     transition: 0.5s ease all;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+   
 }
 
 .btn-primary {
@@ -185,6 +189,7 @@ blockquote {
 .btn-default {
     background: #FFDA44;
     color: #4c443a;
+   
 }
 
 .btn-default:hover {
@@ -1082,6 +1087,7 @@ h2.title-2 {
     color: #093EB6;
     font-weight: bold;
     margin: 0;
+    text-align: center;
 }
 
 h4.subtitle-2 {
@@ -3882,3 +3888,13 @@ ul.nav-tabs {
     height: 100%;
     overflow: hidden;
 }
+
+
+.contact-form-wrapper {
+    width: 90%;
+    max-width: 1200px; /* Optional: limits max width on larger screens */
+    margin: 0 auto; /* Centers the container */
+   
+}
+
+
