@@ -3915,3 +3915,111 @@ ul.nav-tabs {
 }
 
 
+
+/*mission*/
+.mission-vision-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.mission-vision-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-block {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+  color:#002D92;
+  margin-bottom: 20px;
+  border-left: 4px solid #ffc107;
+  padding-left: 12px;
+}
+
+.section-block p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  text-align: justify;
+  font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 22px;
+  }
+
+  .section-block p {
+    font-size: 15px;
+  }
+}
+
+/*our Project*/
+.project-intro-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color:#002D92;
+  margin-bottom: 20px;
+  
+}
+
+.section-subheading {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #0c0c0c;
+  margin-bottom: 15px;
+font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.button-wrapper {
+  margin-top: 30px;
+}
+
+.cta-button {
+  background-color: #ffc107;
+  color: #000;
+  font-weight: bold;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e0a800;
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 26px;
+  }
+
+  .section-subheading {
+    font-size: 15px;
+  }
+
+  .cta-button {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+}
