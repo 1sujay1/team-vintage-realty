@@ -129,7 +129,7 @@ $(function() {
         const form = e.target;
         const data = new FormData(form);
 
-        fetch("https://formsubmit.co/charles@teamvintagerealty.com", {
+        fetch("https://formsubmit.co/sujaymaster111@gmail.com", {
           method: "POST",
           body: data
         })
