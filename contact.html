@@ -197,7 +197,7 @@
                     <div class="row form">
                         <div class="col-md-6">
                             <h2 class="title-2"> Send us a message </h2>
-                            <form id="contact_form" class="form well-form" action="php/contact.php" method="post">
+                            <form id="contact_form" class="form well-form">
                                 <!-- Text input-->
                                 <div class="form-group">
                                     <input name="name" placeholder="Full Name" class="form-control" type="text" required title="Please enter your full name">
@@ -214,12 +214,14 @@
 
                                 <!-- Text area -->
                                 <div class="form-group">
-                                    <textarea class="form-control" name="message" placeholder="Message" required data-rule-minlength="10" data-msg-minlength="Please enter atleast 10 characters" title="Please enter your message"></textarea>
+                                    <textarea class="form-control" name="message" placeholder="Message" required data-rule-minlength="5" data-msg-minlength="Please enter atleast 5 characters" title="Please enter your message"></textarea>
                                 </div>
+                                <input type="hidden" name="_cc" value="visupriya.udt@gmail.com,sujaymaster111@gmail.com,sudershancharles30@gmail.com">
+        <input type="hidden" name="_captcha" value="false">
                                 <!-- Button -->
-                                <button type="submit" class="btn btn-block btn-warning" id="js-contact-btn"> SEND MESSAGE </button>
-
-                                <div id="js-contact-result" data-success-msg="Form submitted successfully." data-error-msg="Oops. Something went wrong."></div>
+                                <button type="submit" class="btn btn-block btn-warning" > SEND MESSAGE </button>
+<div id="statusMessage" style="color: darkgreen;margin-top: 2rem; font-weight: 600;">Thank YOu</div>
+                                <!-- <div id="js-contact-result" data-success-msg="Form submitted successfully." data-error-msg="Oops. Something went wrong."></div> -->
 
                             </form>
                         </div>
@@ -403,7 +405,7 @@ sudershancharles@gmail.com</p>
     <script src="js/validate.js"></script>
 
     <!-- Contact Form JS -->
-    <script src="js/contact.js"></script>
+      <script src="js/contact.js"></script>
 
     <!-- Subscribe Form JS -->
     <script src="js/subscribe.js"></script>
@@ -419,6 +421,7 @@ sudershancharles@gmail.com</p>
 
     <!--  Map Functions -->
     <script src="js/maps.js"></script>
+   
 
 </body>
 
