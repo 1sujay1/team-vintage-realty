@@ -124,21 +124,29 @@ $(function() {
  document.getElementById("contact_form").addEventListener("submit", function(e) {
 
         e.preventDefault(); // prevent page reload
-            alert("Form submitted");
+         const submitBtn = document.getElementById('contact_form_btn');
       const statusMessage = document.getElementById('statusMessage');
         const form = e.target;
         const data = new FormData(form);
-
+    // Show loading text
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Loading...';
         fetch("https://formsubmit.co/sujaymaster111@gmail.com", {
           method: "POST",
           body: data
         })
         .then(response => {
+              // Reset button text
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit';
           statusMessage.innerText = "Thank you! Your message has been sent.";
           statusMessage.className = "success";
           form.reset();
         })
         .catch(error => {
+              // Reset button text
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'SEND MESSAGE';
           statusMessage.innerText = "Oops! Something went wrong.";
           statusMessage.className = "error";
         });
