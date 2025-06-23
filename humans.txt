@@ -3,9 +3,8 @@
 
 /* SITE INFO */
 
-Template: Offshore
-Author: Surjith S M
-Author URL: http://themeforest.net/user/surjithctly
-Twitter: @surjithctly
-Location: Kerala, India.
-Last update: 2016 June
+Template: Business
+Author: Sujay
+Author URL: https:digitalgrowthx.in
+Location: Bangalore, India.
+Last update: 2025 June
