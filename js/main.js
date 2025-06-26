@@ -135,7 +135,7 @@ whatsappLink.style.textDecoration = 'none';
 
 // ✅ Create icon image
 const icon = document.createElement('img');
-icon.src = 'https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg';
+icon.src = '/images/WhatsAppSVG.svg';
 icon.alt = 'WhatsApp Chat';
 icon.style.width = '30px';
 icon.style.height = '30px';
