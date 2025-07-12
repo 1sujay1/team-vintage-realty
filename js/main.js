@@ -115,3 +115,30 @@ Version: 1.0
     }); // End Window.Load
 
 })(jQuery);
+
+const whatsappLink = document.createElement('a');
+whatsappLink.href = 'https://wa.me/916364840379'; // Replace with your WhatsApp number
+whatsappLink.target = '_blank';
+whatsappLink.style.position = 'fixed';
+whatsappLink.style.bottom = '20px';
+whatsappLink.style.right = '20px';
+whatsappLink.style.zIndex = '9999';
+whatsappLink.style.width = '60px';
+whatsappLink.style.height = '60px';
+whatsappLink.style.borderRadius = '50%';
+whatsappLink.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
+whatsappLink.style.backgroundColor = '#25D366';
+whatsappLink.style.display = 'flex';
+whatsappLink.style.justifyContent = 'center';
+whatsappLink.style.alignItems = 'center';
+whatsappLink.style.textDecoration = 'none';
+
+// ✅ Create icon image
+const icon = document.createElement('img');
+icon.src = '/images/WhatsAppSVG.svg';
+icon.alt = 'WhatsApp Chat';
+icon.style.width = '30px';
+icon.style.height = '30px';
+
+whatsappLink.appendChild(icon);
+document.body.appendChild(whatsappLink);
