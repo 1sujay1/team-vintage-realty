@@ -197,7 +197,7 @@
                     <div class="row form">
                         <div class="col-md-6">
                             <h2 class="title-2"> Send us a message </h2>
-                            <form id="contact_form" class="form well-form">
+                            <form id="contact-form" class="form well-form">
                                 <!-- Text input-->
                                 <div class="form-group">
                                     <input name="name" placeholder="Full Name" class="form-control" type="text" required title="Please enter your full name">
@@ -209,7 +209,7 @@
 
                                 <!-- Phone Number-->
                                 <div class="form-group">
-                                    <input name="phone" placeholder="Phone Number" class="form-control" type="text" data-rule-phoneUS="false" title="Please enter your phone number" data-msg-phoneUS="Ouch, that doesn't look like a valid phone number" required>
+                                    <input name="mobile" placeholder="Phone Number" class="form-control" type="text" data-rule-phoneUS="false" title="Please enter your phone number" data-msg-phoneUS="Ouch, that doesn't look like a valid phone number" required>
                                 </div>
 
                                 <!-- Text area -->
@@ -219,8 +219,14 @@
                                 <input type="hidden" name="_cc" value="visupriya.udt@gmail.com,sujaymaster111@gmail.com,sudershancharles30@gmail.com,charles@teamvintagerealty.com,sujaymastern@gmail.com">
         <input type="hidden" name="_captcha" value="false">
                                 <!-- Button -->
-                                <button id="contact_form_btn" type="submit" class="btn btn-block btn-warning" > SEND MESSAGE </button>
-<div id="statusMessage" style="color: darkgreen;margin-top: 2rem; font-weight: 600;"></div>
+                                <button id="contact_form_btn1" type="submit" class="btn btn-block btn-warning" > SEND MESSAGE </button>
+                                <div id="success_message_col1" class='mt-2'>
+                       
+                    </div>
+                    <div id="error_message1" class='error'>
+                       
+                    </div>
+<!-- <div id="statusMessage" style="color: darkgreen;margin-top: 2rem; font-weight: 600;"></div> -->
                                 <!-- <div id="js-contact-result" data-success-msg="Form submitted successfully." data-error-msg="Oops. Something went wrong."></div> -->
 
                             </form>
@@ -404,9 +410,6 @@
     <!-- Form Validation -->
     <script src="/js/validate.js"></script>
 
-    <!-- Contact Form JS -->
-      <script src="/js/contact.js"></script>
-
     <!-- Subscribe Form JS -->
     <script src="/js/subscribe.js"></script>
 
@@ -421,7 +424,11 @@
 
     <!--  Map Functions -->
     <script src="/js/maps.js"></script>
-   
+       <!-- Config JS -->
+      <script src="/js/config.js"></script>
+
+    <!-- Contact Form JS -->
+      <script src="/js/contact.js"></script>
 
 </body>
 
